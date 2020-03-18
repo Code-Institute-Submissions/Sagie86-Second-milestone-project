@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/style.css" type="text/css" />
+    <link rel="stylesheet" href="asset/map.css" type="text/css" />
+    <title>SNI-Travels</title>
+</head>
+
+<body>
+    <div class="home-2-bg"></div>
+    <div>
+        <nav class="navbar nav-position fixed-top navbar-expand-md navbar-light">
+            <button type="button" style="color:red;" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link"><b>Destination</b></a></li>
+                    <li class="nav-item"><a href="searchplaces.html" class="nav-link"><b>Search Places</b></a></li>
+                    <li class="nav-item"><a href="aboutus.html" class="nav-link"><b>About us</b></a></li>
+                </ul>
+            </div>
+            <a class="navbar-logo">
+                <h2>SNI-TRAVELS.</h2>
+            </a>
+        </nav>
+    </div>
+    
+        <div class="row jumbotron">
+            <div class="col-md-8">
+                <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+                <div id="map"></div>
+            </div>
+            <div class="col-md-4">
+                <h1 class="write">Choice of Cities</h1>
+                <h2 class="write">Search Next Holiday</h2>
+                <h3 class="write">Know Your Location</h3>
+                <h4 class="write">Book Your trip</h4>
+                <h5 class="write">Enjoy Your Vcation!!!</h5>
+                
+            </div>
+        </div>
+    
+
+    <!-- drop-down button -->
+    <section class="container-fluid" id="section">
+
+
+        <div class="row jumbotron">
+            <div class="col-md-6 page-bg">
+                <h3>Explore Beautiful Cities Around The World</h3>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger">Africa</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://answersafrica.com/10-amazing-and-popular-tourist-attractions-in-africa.html" target="_blank">Johannesburg</a>
+                        <a class="dropdown-item" href="https://answersafrica.com/10-amazing-and-popular-tourist-attractions-in-africa.html" target="_blank">Cairo</a>
+                        <a class="dropdown-item" href="https://answersafrica.com/10-amazing-and-popular-tourist-attractions-in-africa.html" target="_blank">Lagos</a>
+                        <a class="dropdown-item" href="https://answersafrica.com/10-amazing-and-popular-tourist-attractions-in-africa.html" target="_blank">Maputo</a>
+                        <a class="dropdown-item" href="https://answersafrica.com/10-amazing-and-popular-tourist-attractions-in-africa.html" target="_blank">Casablanca</a>
+                    </div>
+                </div>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger">America</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://learningenglish.voanews.com/a/top-25-cities-in-america/2744774.html" target="_blank">Las Vegas</a>
+                        <a class="dropdown-item" href="https://learningenglish.voanews.com/a/top-25-cities-in-america/2744774.html" target="_blank">San Francisco</a>
+                        <a class="dropdown-item" href="https://learningenglish.voanews.com/a/top-25-cities-in-america/2744774.html" target="_blank">New York City</a>
+                        <a class="dropdown-item" href="https://learningenglish.voanews.com/a/top-25-cities-in-america/2744774.html" target="_blank"> Chicago</a>
+                        <a class="dropdown-item" href="https://learningenglish.voanews.com/a/top-25-cities-in-america/2744774.html" target="_blank">Miami</a>
+                    </div>
+                </div>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger">Asia</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-asian-vacations/" target="_blank">Maldives</a>
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-asian-vacations/" target="_blank">Tokyo</a>
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-asian-vacations/" target="_blank">Bali</a>
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-asian-vacations/" target="_blank">Hong Kong</a>
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-asian-vacations/" target="_blank">Singapore</a>
+                    </div>
+                </div>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger">Australia</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://traveltriangle.com/blog/australia-tourist-attractions/" target="_blank">Sydney</a>
+                        <a class="dropdown-item" href="https://traveltriangle.com/blog/australia-tourist-attractions/" target="_blank">Fraser island</a>
+                        <a class="dropdown-item" href="https://traveltriangle.com/blog/australia-tourist-attractions/" target="_blank">Cairns</a>
+                        <a class="dropdown-item" href="https://traveltriangle.com/blog/australia-tourist-attractions/" target="_blank">Magnetic Island </a>
+                        <a class="dropdown-item" href="https://traveltriangle.com/blog/australia-tourist-attractions/" target="_blank">Tasmania</a>
+                    </div>
+                </div>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger">Europe</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-europe-vacations/" target="_blank">Santorini</a>
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-europe-vacations/" target="_blank">Paris</a>
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-europe-vacations/" target="_blank">Venice</a>
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-europe-vacations/" target="_blank">Athens</a>
+                        <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-europe-vacations/" target="_blank">Budapest</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <h3>CONTACT US AND LEAVE A FEEDBACK!</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">FirstName</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">LastName</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Ericsson">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Select Topic</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+      <option>QUESTIONS</option>
+      <option>FEEDBACK</option>
+      <option>BOOKING</option>
+      <option>CANCELATION</option>
+      <option>VISIT US</option>
+    </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </section>
+
+    <footer class="footer-fluid bg-dark" style="color: #efefef;">
+        <div class="footer">
+            <div id="footer-text" class="row">
+                <div class="col-md-6">
+                    <h4 class="footer-heading mb-4">Subscribe</h4>
+                    <form action="#" class="d-flex subscribe">
+                        <input type="text" class="form-control mr-3" placeholder="Email">
+                        <input type="submit" value="Send" class="btn btn-primary">
+                    </form>
+                </div>
+                <div class="col-md-2 col-md-push-1">
+                    <div class="dest-widget">
+                        <h3>Destination</h3>
+                        <ul class="dest-footer-links">
+                            <li><a href="#">Europe</a></li>
+                            <li><a href="#">Australia</a></li>
+                            <li><a href="#">Asia</a></li>
+                            <li><a href="#">Canada</a></li>
+                            <li><a href="#">Dubai</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-push-1">
+                    <div class="dest-widget">
+                        <h3>Hotels</h3>
+                        <ul class="dest-footer-links">
+                            <li><a href="#">Luxe Hotel</a></li>
+                            <li><a href="#">Italy 5 Star hotel</a></li>
+                            <li><a href="#">Dubai Hotel</a></li>
+                            <li><a href="#">Deluxe Hotel</a></li>
+                            <li><a href="#">BoraBora Hotel</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-push-1">
+                    <div class="dest-widget">
+                        <h3>Get In Touch</h3>
+                        <ul class="dest-quick-contact">
+                            <li><a target="_blank" href="#"><i class="fa fa-phone"></i><span> +46764495000</span></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-envelope"></i><span> info@sagie.com</span></a></li>
+                            <li><a target="_blank" href="#"><i class="fa fa-comment"></i><span> Live Chat</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="asset/js/maps.js"></script>
+    <script src="https://kit.fontawesome.com/b46549430e.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCly5R9t6TwKdMf5kN0d-oziJWPHZxx2U8&libraries=places&callback=initAutocomplete" async defer></script>
+
+</body>
+
+
+</html>

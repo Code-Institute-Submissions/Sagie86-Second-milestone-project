@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    
+}
+
+/*---------------navbar-style------*/
+
+.navbar-logo {
+  position: right;
+  margin-right: 2px;
+}
+
+.nav-position {
+  position: fixed;
+  margin: 0;
+  width: auto;
+  
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #b0e0e6;
+  opacity: 0.6;
+  position: fixed;
+}
+
+.navbar a {
+  float: left;
+  color:#f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*---------------background image------*/
+
+.home-bg {
+  background: url("./../asset/images/thumbnail-1.jpg") no-repeat bottom;
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.page-bg {
+  background: url("./../asset/images/thumbnail-2.jpg") no-repeat bottom;
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-2-bg {
+  background: url("./../asset/images/banner1.jpg") no-repeat bottom;
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+.text {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.text p {
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-shadow: 1px 2px black;
+}
+
+.page {
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+/*---------------Section of second page------*/
+
+#section {
+  margin-top: 100px;
+}
+
+.box {
+  position: inherit;
+  
+}
+
+
+.btn-group {
+  margin: 20px 10px 30px;
+
+}
+
+
+
+
+/*---------------Section of third page------*/
+
+
+
+.gallery {
+  border: 1px solid #000;
+}
+
+#map {
+  border: 1px solid #ccc;
+}
+
+div h2 {
+  color: red;
+}
+
+/*---------------footer------*/
+.links {
+    padding-bottom: 18px;
+}
+
+ 
+
+.dest-footer-links li a:hover {
+    background: #ffffff;
+}
+
+#footer-text {
+    padding: 30px;
+    color: blue;
+
+}
+
+div ul li {
+  color: white;
+}
+
+.dest-footer-contacts li a i:hover {
+  background: #ffffff;
+}
+
+.dest-widget {
+  color: red;
+}
+
+
+
+
+  
+
+
+
+
+
+
