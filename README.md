@@ -30,13 +30,21 @@ some individual that has benefited from this website, by booking their vacations
 
 ### TECHNOLOGIES USED: 
 
-Html, css , Bootstrap, javascript, Google Map API.
+Html, css , Bootstrap, javascript, Google Map API.<br>
+The three pages where developed by html, css and javascript, with external css codes from bootstrap.<br>
+Also external codes from "Google maps Platform" was used for the google maps on the "searchplaces" page. This is to enable 
+users search for places they intend spending their next vacation before going ahead to make a booking.
+
 
 ### CONTENTS: 
 
 All text in the 'DESTINATION' and 'ABOUT US' page are written by Sagie Nathan Ighodaro
 Bootstrap was used for the 'contact form/feedback form. Also much of 'jumbotron' was used from bootstrp as well
-and some other bootstrap css used in styling the footer.
+and some other bootstrap css used in styling the footer.<br>
+
+Codes were written from Google Maps Platform, to enable users search for places such as : hotels, cities, religious centers, 
+tourist centers and many more places that could be helpful during a vacation trip
+
  
 ### MEDIA: 
 
@@ -51,6 +59,11 @@ This can be done by sending an email to sagie.ighodaro@yahoo.co.uk.
 ### ACKNOWLEDMENT: 
 
 My appriciation goes to God Almighty. <br>
+I acknolwedge the use of codes from "Google maps Platform" for my project.<br>
 Also to my mentor who encourages me to go further in this course. <br>
 I also thank my wife who is suppotive and help me in every way possible to achive this.<br>
 Appreciation also to Dasylva Deji who has been helpful in this career of mine.
+
+### LICENSE:
+This project is licenced under the MIT-License
+Copyright (c) 2020 SNI-Travels.
